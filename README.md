@@ -48,7 +48,7 @@ Output:
 ```
 Addition of 20 and 10 is 30
 Multiplication of 20 and 10 is 200
-``
+```
 ## Advantages of Using std::function:
   - **Flexibility**: The `std::function` type is highly versatile and can store pointers to functions, lambdas, or even objects that overload the operator().
   - **Polymorphism** for Callable Objects: You can change the behavior of the invoke function by passing different types of functions or callables, which enhances modularity.
