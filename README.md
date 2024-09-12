@@ -40,7 +40,7 @@ int main()
 
     return 0;
 }
-``
+```
 In the main function:
   - The invoke function is called twice. The first call passes `&add`, a pointer to the add function, and the second call passes `&multiply`, a pointer to the multiply function.
   - As `invoke` is called, it executes the function (`add` or `multiply`) with the given arguments (20 and 10), and prints the result.
